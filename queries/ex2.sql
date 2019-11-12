@@ -3,5 +3,5 @@
 # この下の行にSQL文を書きましょう。
 
 SELECT follower account
-FROM follow f
+FROM follow.f
 WHERE followee account = 'SHARP_JP'
