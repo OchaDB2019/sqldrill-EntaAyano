@@ -4,4 +4,5 @@
 
 SELECT u.name
 FROM user.u,follow.f
-WHERE u=(f.followee account='SHAPE_JP')
+WHERE f.followee account='SHAPE_JP')
+and u.user=f.user
