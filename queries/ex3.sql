@@ -3,6 +3,6 @@
 # この下の行にSQL文を書きましょう。
 
 SELECT u.name
-FROM user.u,follow.f
-WHERE f.followee account='SHAPE_JP')
-and u.user=f.user
+FROM user u,follow f
+WHERE f.followee_account='SHARP_JP'
+and u.account=f.follower_account
