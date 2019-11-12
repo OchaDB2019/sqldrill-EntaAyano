@@ -4,4 +4,4 @@
 
 SELECT email
 FROM user.u
-WHERE u.name='株式会社タニタ
+WHERE u.name='株式会社タニタ'
