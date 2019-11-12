@@ -3,5 +3,5 @@
 # この下の行にSQL文を書きましょう。
 
 SELECT email
-FROM user u
+FROM user.u
 WHERE u.name='株式会社タニタ
